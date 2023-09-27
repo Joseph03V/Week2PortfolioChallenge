@@ -38,7 +38,7 @@
 a{
     color: var(--thirdcondary);
     /* this is not the default anchor color
-    I changed it to match the image under the header */
+    I changed it to match the bottom left image under the header */
 }
 
 
@@ -61,3 +61,7 @@ a{
     background-color: var(--secondary);
     color: var(--mainTheme);
 }
+
+
+/* this is the grid layout with a sidebar */
+
