@@ -63,8 +63,8 @@ with the heading that lays ontop of the image*/
 .purp h1{
     display: inline-block;
     position: relative;
-    left: 1500px;
-    top: 100px;
+    /* left: 1500px;
+    top: 100px; */
     font-family: var(--font);
     background-color: var(--secondary);
     color: var(--mainTheme);
@@ -142,9 +142,22 @@ li {
 
 /* Media screen for different devices (pc,tablet,phone)*/
 @media screen and (max-width:992px){
-
+   body{
+        height:100%;
+        width:100%;
+    } 
 }
 
 @media screen and (max-width:768px){
-    
+   body{
+        height:100%;
+        width:100%;
+   }
+}
+
+@media screen and (max-width:600px){
+    body{
+        height:100%;
+        width:100%;
+    } 
 }
