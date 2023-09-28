@@ -5,6 +5,8 @@
     --font: Arial, Helvetica, sans-serif;
 }
 
+
+
 /* This is for the header */
 .header {
     background-color: var(--mainTheme);
@@ -47,7 +49,7 @@ a{
     height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../assets/technology-banner-with-low-poly-plexus-design-vector.jpg");
+    background-image: url("../assets/technologyBanner.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -63,5 +65,61 @@ a{
 }
 
 
-/* this is the grid layout with a sidebar */
+/* this is the grid layout for the body */
+.container{
+    display: grid;
+    grid-template-rows: 100px 300px 100px;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1em 1em;
+}
 
+
+/* Classes for each section */
+h2{
+    color: var(--mainTheme);
+    font-family: var(--font);
+    border-right: 5px solid rgb(54,57,63);
+    float: right;
+}
+
+.About-Me-P{
+
+}
+
+
+.Work-Container{
+    display: grid;
+    grid-template-rows: repeat(8, 100px);
+    grid-template-columns: repeat(6,100px);
+
+
+}
+.item-1{
+    grid-row: 1/5;
+    grid-column: 1/7;
+}
+.item-2{
+    grid-rows: 5/7;
+    grid-columns: 1/4;
+}
+.item-3{
+    grid-row: 5/7;
+    grid-column: 4/7;
+}
+.item-4{
+    grid-row: 7/9;
+    grid-column:1/4 ;
+}
+.item-5{
+    grid-rows: 7/9;
+    grid-column: 4/7;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.Contact-Me-A{
+
+}
