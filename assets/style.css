@@ -94,6 +94,8 @@ h2{
 .About-Me-P{
     width: 80%;
     margin-left: 20px;
+    color: var(--mainTheme);
+    font-family: var(--font);
 }
 
 /* This is the work section grid */
@@ -141,23 +143,18 @@ li {
 
 
 /* Media screen for different devices (pc,tablet,phone)*/
-@media screen and (max-width:992px){
-   body{
-        height:100%;
-        width:100%;
-    } 
-}
 
 @media screen and (max-width:768px){
-   body{
-        height:100%;
-        width:100%;
+   main{
+    flex-direction: column;
    }
 }
 
 @media screen and (max-width:600px){
-    body{
-        height:100%;
-        width:100%;
-    } 
+    main{
+     flex-direction: column;
+    }
 }
+
+
+/* Adds the hover highlight */
